@@ -1,3 +1,114 @@
-* {
+* { 
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----------FONTS----------- */
+
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rozha-one-regular {
+    font-family: "Rozha One", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* -----------PAGE 1----------- */
+
+.youDont {
+    display: flex;
+    background-color: aqua;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-family: "poppins-regular", sans-serif;
+    font-size: 250%;
+    justify-content:space-around;
+}
+
+.youDont a {
+    position: relative;
+    transform: translate(0px, -20px);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.youDont p {
+    padding-left: 4%;
+    padding-right: 5%;
+}
+
+#recognize {
+    text-decoration: none;
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 150%;
+    color: black;
+}
+
+.youDont a:hover {
+    transform:scale(1.5) skew(10deg) translate(0px, -10px);
+}
+
+/* -----------PAGE 2----------- */
+
+.tooMany {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-size: 250%;
+    font-family: "poppins-regular", sans-serif;
+}
+
+#someOfThem {
+    font-size: 150%;
+}
+
+#rotten {
+    position: relative;
+    font-size: 500%;
+    text-decoration: none;
+    transform: translate(0px, -50px);
+    text-align: center;
+}
+
+/* -----------PAGE 3----------- */
+
+.whereAreThe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 15%;
+    padding-bottom: 25%;
+    text-align: center;
+    font-size: 250%;
+    font-family: "poppins-regular", sans-serif;
+    justify-content:space-around;
+}
+
+#goodOnes {
+    transform:scale(2,2);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#howDoWe {
+    padding-top: 7%;
 }
