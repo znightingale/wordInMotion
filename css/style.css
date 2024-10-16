@@ -83,17 +83,16 @@
     font-size: 250%;
     font-family: "Poppins", sans-serif;
     justify-content: center;
-    color: black;
+    color: white;
 
     animation-name: introAnimate;
     animation-direction:alternate-reverse;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
 #someOfThem {
     font-size: 150%;
-    padding-bottom: 10%;
 }
 
 #rotten {
@@ -102,21 +101,21 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     transform: translate(0px, -22%);
-    color: green;
+    color: black;
 }
 
 #rotten:hover {
     font-family: "Special Elite", system-ui;
     transform: translate(0px, 8%);
-    color: sienna;
+    color: white;
 }
 
 @keyframes introAnimate {
     from {
-        background-color: rgb(39, 90, 39);
+        background-color: rgb(0, 55, 255);
     }
     to {
-        background-color: sienna;
+        background-color: black;
     }
 }
 
@@ -132,7 +131,8 @@
     font-size: 250%;
     font-family: "poppins-regular", sans-serif;
     justify-content:space-around;
-    background-color: aqua;
+    background-color: rgb(0, 55, 255);
+    color: white;
 }
 
 #goodOnes {
@@ -154,8 +154,8 @@
     justify-content: space-between;
     padding-top: 10%;
     padding-bottom: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 250%;
     font-family: "poppins-regular", sans-serif;
 }
@@ -175,7 +175,7 @@
 }
 
 #find:hover {
-    color: aqua;
+    color: rgb(0, 55, 255);
 }
 
 /* -----------PAGE 4----------- */
@@ -191,8 +191,8 @@
 }
 
 #wild {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
     text-decoration: none;
     color: black;
 }
@@ -212,7 +212,7 @@
     padding-right: 20%;
     font-family: "Poppins", sans-serif;
     font-size: 250%;
-    padding-top: 15%;
+    padding-top: 25%;
 }
 
 #earth {
@@ -227,3 +227,5 @@
     transform: translate(0px, 200px);
     text-decoration: underline;
 }
+
+/* -----------PAGE 6----------- */
